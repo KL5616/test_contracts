@@ -4,7 +4,7 @@
 pragma solidity ^0.7.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol";
-import "https://github.com/KL5616/FRACTALS2/blob/main/FRACTAL.sol";
+import "https://github.com/KL5616/test_contracts/blob/main/FRACTAL.sol";
 
 contract Swapper {
     using SafeMath for uint256;

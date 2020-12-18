@@ -10,9 +10,9 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/IUniswapV2Router02.sol";
 import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/IUniswapV2Router01.sol";
-import "https://github.com/KL5616/FRACTALS2/blob/main/Balancer.sol";
-import "https://github.com/KL5616/FRACTALS2/blob/main/Swapper.sol";
-import "https://github.com/KL5616/FRACTALS2/blob/main/RewardWallet.sol";
+import "https://github.com/KL5616/test_contracts/blob/main/Balancer.sol";
+import "https://github.com/KL5616/test_contracts/blob/main/Swapper.sol";
+import "https://github.com/KL5616/test_contracts/blob/main/RewardWallet.sol";
 
 contract FRACTAL is Context, IERC20, Ownable {
     using SafeMath for uint256;
