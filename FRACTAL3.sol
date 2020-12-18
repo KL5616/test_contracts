@@ -14,7 +14,7 @@ import "https://github.com/KL5616/test_contracts/blob/main/Balancer.sol";
 import "https://github.com/KL5616/test_contracts/blob/main/Swapper.sol";
 import "https://github.com/KL5616/test_contracts/blob/main/RewardWallet.sol";
 
-contract FRACTAL is Context, IERC20, Ownable {
+contract FRACTAL3 is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
